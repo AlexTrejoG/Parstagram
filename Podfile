@@ -9,6 +9,7 @@ target 'Pastagram' do
 
  pod "Parse"
  pod "AlamofireImage"
+ pod "MessageInputBar"
 
   target 'PastagramTests' do
     inherit! :search_paths

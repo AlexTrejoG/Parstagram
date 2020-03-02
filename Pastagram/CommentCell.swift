@@ -1,18 +1,17 @@
 //
-//  PostsCell.swift
+//  CommentCell.swift
 //  Pastagram
 //
-//  Created by Alex Trejo on 2/23/20.
+//  Created by Alex Trejo on 3/1/20.
 //  Copyright © 2020 Alex Trejo. All rights reserved.
 //
 
 import UIKit
 
-class PostsCell: UITableViewCell {
+class CommentCell: UITableViewCell {
 
-    @IBOutlet weak var photoView: UIImageView!
-    @IBOutlet weak var usernameLabel: UILabel!
-    @IBOutlet weak var captionLabel: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var commentLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
